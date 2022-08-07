@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 100px;
+            height: 30px;
+            transition: 0.3s;
+            background-color: aquamarine;
+        }
+        button:hover{
+             width: 150px;
+             background-color: red;
+             border: 3px solid yellow;
+             border-radius: 20px;
+             margin-left: 50px;
+        }
+        span::before{
+            content: '*';
+        }
+        span:hover{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <button>click me</button>
+    <span>apple</span>
+    <span>orange</span>
+    <span>mango</span>
+</body>
+</html>
